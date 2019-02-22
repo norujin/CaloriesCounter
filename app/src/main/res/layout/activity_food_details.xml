@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91da71"
+    android:padding="10dp"
+    tools:context=".FoodDetailsActivity">
+
+    <ImageView
+        android:id="@+id/food_img_dets_id"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pear_icon_2" />
+
+    <LinearLayout
+        android:id="@+id/llayout3_id"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:background="@drawable/row_bg"
+        android:layout_below="@+id/food_img_dets_id"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/food_name_dets_id"
+            android:text="Food Name"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="#dd6b37a7"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/food_cal_dets_id"
+            android:textSize="35sp"
+            android:text="200"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:textColor="#ef2929"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/food_date_dets_id"
+            android:layout_gravity="center_horizontal"
+            android:text="ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/share_btn_id"
+            android:background="@drawable/share_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/share_btn"
+            android:layout_width="54dp"
+            android:layout_height="54dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_food_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_below="@+id/llayout3_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

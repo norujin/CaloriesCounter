@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calories Counter</string>
+    <string name="app_title">Calories Counter</string>
+    <string name="food_hint">  What did you eat?</string>
+    <string name="food_cal">  Count calories</string>
+    <string name="submit_btn">Submit</string>
+    <string name="total_calories">Total Calories: </string>
+    <string name="total_foods">Foods Quantity: </string>
+    <string name="share_btn">Share</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="delete">Delete</string>
+</resources>
