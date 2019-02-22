@@ -34,6 +34,7 @@ public class FoodDetailsActivity extends AppCompatActivity {
         share = (Button) findViewById(R.id.share_btn_id);
         delete = (Button) findViewById(R.id.delete_food_id);
 
+
         Food food = (Food) getIntent().getSerializableExtra("userobj");
 
         food_dets_name.setText(food.getFoodname());
